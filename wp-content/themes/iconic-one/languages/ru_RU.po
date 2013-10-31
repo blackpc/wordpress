@@ -1,0 +1,389 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Iconic One v1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-17 12:18:30+0000\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ themonic
+msgid "Nothing Here!"
+msgstr "Ничего не найдено"
+
+#: 404.php:21
+#: content-none.php:17
+#: index.php:53
+#@ themonic
+msgid "Kindly search your topic below or browse the recent posts."
+msgstr "Воспользуйтесь поиском"
+
+#: archive.php:29
+#, php-format
+#@ themonic
+msgid "Daily Archives: %s"
+msgstr "Архив за день: %s"
+
+#: archive.php:31
+#, php-format
+#@ themonic
+msgid "Monthly Archives: %s"
+msgstr "Архив за месяц: %s"
+
+#: archive.php:31
+#@ themonic
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+#@ themonic
+msgid "Yearly Archives: %s"
+msgstr "Архив за год: %s"
+
+#: archive.php:33
+#@ themonic
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:35
+#@ themonic
+msgid "Archives"
+msgstr "Архив"
+
+#: author.php:29
+#, php-format
+#@ themonic
+msgid "Author Archives: %s"
+msgstr "Архив автора: %s"
+
+#: author.php:50
+#: content.php:73
+#, php-format
+#@ themonic
+msgid "About %s"
+msgstr "Про %s"
+
+#: category.php:16
+#, php-format
+#@ themonic
+msgid "Category Archives: %s"
+msgstr "Архив рубрики: %s"
+
+#: comments.php:25
+#, php-format
+#@ themonic
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:36
+#@ themonic
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:37
+#@ themonic
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:38
+#@ themonic
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:47
+#@ themonic
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+#: content-none.php:13
+#: index.php:49
+#: search.php:34
+#@ themonic
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-page.php:18
+#: content.php:60
+#: image.php:92
+#@ themonic
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: content-page.php:21
+#: content.php:66
+#: functions.php:227
+#: image.php:37
+#@ themonic
+msgid "Edit"
+msgstr "Изменить"
+
+#: content.php:14
+#@ themonic
+msgid "Featured Article"
+msgstr "Избранные записи"
+
+#: content.php:22
+#: content.php:50
+#, php-format
+#@ themonic
+msgid "Permalink to %s"
+msgstr "%s"
+
+#: content.php:28
+#@ themonic
+msgid "By"
+msgstr "Автор"
+
+#: content.php:36
+#@ themonic
+msgid "0 Comment"
+msgstr "Нет комментариев"
+
+#: content.php:36
+#@ default
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+#: content.php:36
+#@ default
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+#: content.php:59
+#@ themonic
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:77
+#, php-format
+#@ themonic
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Все записи %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:34
+#@ themonic
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: functions.php:76
+#@ themonic
+msgctxt "Ubuntu font: on or off"
+msgid "on"
+msgstr "вкл"
+
+#: functions.php:119
+#, php-format
+#@ themonic
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:144
+#@ themonic
+msgid "Main Sidebar"
+msgstr "Главный сайдбар"
+
+#: functions.php:146
+#@ themonic
+msgid "This is a Sitewide sidebar which appears on posts and pages"
+msgstr ""
+
+#: functions.php:168
+#: single.php:18
+#@ themonic
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: functions.php:169
+#@ themonic
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: functions.php:170
+#@ themonic
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:195
+#@ themonic
+msgid "Pingback:"
+msgstr "Пингбек:"
+
+#: functions.php:195
+#@ themonic
+msgid "(Edit)"
+msgstr "Изменить"
+
+#: functions.php:210
+#@ themonic
+msgid "Post author"
+msgstr "Автор записи"
+
+#. translators: 1: date
+#: functions.php:216
+#, php-format
+#@ themonic
+msgid "%1$s"
+msgstr ""
+
+#: functions.php:222
+#@ themonic
+msgid "Your comment is awaiting moderation."
+msgstr "Комментарий ожидает проверки"
+
+#: functions.php:231
+#@ themonic
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:250
+#: functions.php:253
+#@ themonic
+msgid ", "
+msgstr ""
+
+#: functions.php:264
+#, php-format
+#@ themonic
+msgid "View all posts by %s"
+msgstr "Все записи %s"
+
+#: functions.php:270
+#, php-format
+#@ themonic
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Запись опубликована в %1$s с метками %2$s - %3$s<span class=\"by-author\"> автор %4$s</span>."
+
+#: functions.php:272
+#, php-format
+#@ themonic
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Запись опубликована в %1$s - %3$s<span class=\"by-author\"> автор %4$s</span>."
+
+#: functions.php:274
+#, php-format
+#@ themonic
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Запись опубликована в %3$s<span class=\"by-author\"> автор %4$s</span>."
+
+#: header.php:60
+#@ themonic
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:26
+#, php-format
+#@ themonic
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Опубликовано: </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> в <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: image.php:41
+#@ themonic
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: image.php:42
+#@ themonic
+msgid "Next &rarr;"
+msgstr "Вперед &rarr;"
+
+#: inc/iconic-one-options.php:17
+#@ themonic
+msgid "Iconic One"
+msgstr ""
+
+#: inc/iconic-one-options.php:18
+#@ themonic
+msgid "Customize Iconic One"
+msgstr "Настроить тему"
+
+#: inc/themonic-customizer.php:28
+#: inc/themonic-customizer.php:34
+#@ themonic
+msgid "Logo"
+msgstr "Лого"
+
+#: inc/themonic-customizer.php:61
+#@ themonic
+msgid "Footer"
+msgstr "Футер"
+
+#: inc/themonic-customizer.php:125
+#@ themonic
+msgid "Social"
+msgstr "Соц.иконки"
+
+#: index.php:38
+#@ themonic
+msgid "No posts to display"
+msgstr "Нет записей"
+
+#: index.php:42
+#, php-format
+#@ themonic
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%s\">Вперед</a>."
+
+#: search.php:18
+#, php-format
+#@ themonic
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: search.php:38
+#@ themonic
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "К сожалению, ничего не найдено"
+
+#: sidebar.php:20
+#@ themonic
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+#: sidebar.php:24
+#@ themonic
+msgid "Pages"
+msgstr "Страницы"
+
+#: sidebar.php:29
+#@ themonic
+msgid "Tag Cloud"
+msgstr "Метки"
+
+#: single.php:19
+#@ themonic
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: single.php:20
+#@ themonic
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: tag.php:19
+#, php-format
+#@ themonic
+msgid "Tag Archives: %s"
+msgstr "Архив метки: %s"
+
