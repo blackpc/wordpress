@@ -1,15 +1,6 @@
 ﻿
 
 <?php
-/*
- * Restore MySQL dump using PHP
- * (c) 2006 Daniel15
- * Last Update: 9th December 2006
- * Version: 0.2
- * Edited: Cleaned up the code a bit. 
- *
- * Please feel free to use any part of this, but please give me some credit :-)
- */
   
 // Name of the file
 $filename = 'wordpress.sql';
