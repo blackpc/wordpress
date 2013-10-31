@@ -65,7 +65,10 @@ foreach ($lines as $line)
         print("Warning: couldn't delete sql install file");
     }
 
-    print("Success");
 }
+
+print("Success");
+
+
  
 ?>
