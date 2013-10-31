@@ -5171,3 +5171,7 @@ function intercept_all_status_changes( $new_status, $old_status, $post ) {
 		$fm->migrate_post_meta();
 	}
 }
+
+
+
+add_action( 'transition_post_status', 'intercept_all_status_changes', 10, 3 );
