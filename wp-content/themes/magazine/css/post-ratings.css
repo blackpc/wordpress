@@ -1,0 +1,126 @@
+
+.bx-wrapper .ratings {
+  float: right;
+  margin: 4px 0;
+}
+
+.ratings {
+  float: none;
+  margin: 5px 0;
+}
+
+.ratings:after{
+  content:'.';
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+
+.ratings .item{
+  display: none;
+}
+
+.ratings ul, .ratings a:hover, .ratings .rating{
+  background: transparent url(images/star.png) repeat-x;
+  background-size: 12px;
+}
+
+/* !important because some bad themes override our rules :( */
+.ratings ul, .ratings li{
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ratings ul{
+  height: 12px;
+  float: left;
+}
+
+.ratings li{
+  position: relative;
+  display: block;
+}
+
+.ratings a{
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  display:block;
+  width:12px;
+  height: 12px;
+  text-decoration: none;
+  text-indent: -999px;
+  z-index: 10;
+}
+
+.bx-wrapper .ratings a, .latest-post .ratings  a {
+  text-indent: -9999px;
+}
+
+.ratings ul li a:hover{
+  background-position: left bottom;
+  z-index: 5;
+  left: 0 !important;
+}
+
+.ratings .s2 a{left:12px;}
+.ratings .s2 a:hover{width: 24px;}
+
+.ratings .s3 a{left: 24px;}
+.ratings .s3 a:hover{width: 36px;}
+
+.ratings .s4 a{left: 36px;}
+.ratings .s4 a:hover{width: 48px;}
+
+.ratings .s5 a{left: 48px;}
+.ratings .s5 a:hover{width: 60px;}
+
+.ratings .s6 a{left: 60px;}
+.ratings .s6 a:hover{width: 72px;}
+
+.ratings .s7 a{left: 72px;}
+.ratings .s7 a:hover{width: 84px;}
+
+.ratings .s8 a{left: 84px;}
+.ratings .s8 a:hover{width: 96px;}
+
+.ratings .s9 a{left: 96px;}
+.ratings .s9 a:hover{width: 108px;}
+
+.ratings .s10 a{left: 108px;}
+.ratings .s10 a:hover{width: 120px;}
+
+.ratings .rating{
+  background-position: left center;
+  position: absolute;
+  height: 12px;
+  display: block;
+  text-indent: -9999px;
+  z-index: 1;
+}
+
+.ratings .metaz{
+  display: block;
+  clear: both;
+  font-size: 12px;
+  color: #999;
+  float: left;
+  line-height: 18px;
+}
+
+.bx-wrapper .ratings .metaz, .latest-post .ratings .metaz{
+  display: none;
+}
+
+.ratings .metaz strong{
+  color: #666;
+}
+
+.ratings.error .metaz {
+  color: #ff0000;
+  font-weight: bold;
+}

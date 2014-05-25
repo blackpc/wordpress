@@ -1,0 +1,94 @@
+Changelogs:
+
+
+
+Version 1.1 since September 10, 2013
+======================================
+
+Updates:
+	- Fix minor CSS bugs
+	- Add responsive Google Adsense feature
+	- Add custom image banner ads feature
+	
+Files edited:
+	- style.css
+	- single.php
+	- page.php
+	- search.php
+	- archive.php
+	- sidebar.php
+	- options.php
+	- index.php
+	- header.php
+	- includes/theme-init.php
+	- includes/theme-functions.php
+	
+File added:
+	- theme-ads-functions.php	
+
+	
+Version 1.0.3 since September 06, 2013
+======================================
+	
+Updates:
+	- Fix tag width on post meta
+	- Fix page navigation	
+	- Fix tabbed content bug on non-homepage sidebar area
+	- Fix contact form bug
+	- Fix typography
+	- Improve bxslider initial
+	
+Files edited:
+	- style.css
+	- js/custom.js
+	- includes/theme-functions.php		
+	- includes/theme-widgets.php		
+	- includes/assets/shortcodes/shortcodes.php
+	
+File added:
+	- js/jquery.bxslider.init.js	
+
+	
+
+Version 1.0.2 since September 05, 2013
+======================================
+
+Updates: 
+	- Fix minor CSS bug 
+	- Fix minor bugs in home page template
+	- Improve custom background and color selection
+	- Fix dropdown menu bug
+	- Fix post author name meta in single post
+	- Fix user page (back end) bug
+	- Improve flex slider initial 
+	
+Files edited:
+	- style.css	
+	- js/custom.js	
+	- magazine.php
+	- /inlcudes/assets/typo.php	
+	- includes/theme-functions.php
+	- /inlcudes/assets/avatar.php	
+
+File added:	
+	- js/jquery.flexslider.init.js 	
+	
+	
+	
+Version 1.0.1 since August 30, 2013
+===================================
+
+Update: 
+	- Fix minor bugs in home page template
+	- Fix minor CSS bug 
+
+Files edited:
+	- magazine.php
+	- style.css	
+	
+
+
+Version 1.0 since August 30, 2013
+=================================
+
+- Initial release
